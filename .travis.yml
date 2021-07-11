@@ -5,7 +5,6 @@ python:
   - 3.8
 install:
   - pip3 install -r requirements.txt
-  - pip3 install .
 script:
  - python -m unittest tests.test_operations
 
